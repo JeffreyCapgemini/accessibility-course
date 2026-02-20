@@ -1,15 +1,16 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Course1 from './pages/Course1';
-import Navigation from './components/navigation/navigation';
+import Logo from './components/Logo/Logo';
+import Search from './components/Search/Search';
+import Modal from './components/Modal/Modal';
 
 const App = () => {
   return (<>
-   <Navigation />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<Course1 />} />
-    </Routes>
+    <header>
+      <Logo />
+      <Search />
+    </header>
+    <main>
+      <Modal />
+    </main>
   </>
   );
 };

@@ -1,0 +1,44 @@
+.site-header {
+  background-color: var(--header-background-color);
+  position: relative;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+}
+
+.site-header__logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-inline: auto;
+}
+
+.site-header__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-header__logo-image {
+  display: block;
+  width: 40px;
+  height: auto;
+}
+
+.site-header__logo-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--logo-blue);
+  font-family: var(--rijks-sans-font-family);
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.site-header__primary-text {
+  font-weight: 600;
+}
+
+.site-header__secondary-text {
+  font-weight: 400;
+}

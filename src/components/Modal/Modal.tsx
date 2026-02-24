@@ -1,5 +1,3 @@
 export default function ModalAssignment() {
-  return (
-    <h1>hoi</h1>
-  );
+  return <h1>test</h1>;
 }

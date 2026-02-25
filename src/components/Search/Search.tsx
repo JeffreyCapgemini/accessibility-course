@@ -11,7 +11,6 @@ export default function Search() {
             <input
               type="text"
               className="text-input search-bar__input"
-
               name="q"
             />
           </div>
